@@ -1,54 +1,66 @@
 @font-face {
   font-style: normal;
   font-weight: 300;
-  font-family: "Roboto";
+  font-family: "Roboto Condensed";
 
   font-display: swap;
   src:
-    url("../fonts/Robotolight.woff2") format("woff2"),
-    url("../fonts/Robotolight.woff") format("woff");
+    url("../fonts/RobotoCondensed-Light.woff2") format("woff2"),
+    url("../fonts/RobotoCondensed-Light.woff") format("woff");
+}
+
+@font-face {
+  font-style: italic;
+  font-weight: 300;
+  font-family: "Roboto Condensed";
+
+  font-display: swap;
+  src:
+    url("../fonts/RobotoCondensed-LightItalic.woff2") format("woff2"),
+    url("../fonts/RobotoCondensed-LightItalic.woff") format("woff");
 }
 
 @font-face {
   font-style: normal;
-  font-weight: 500;
-  font-family: "Roboto";
+  font-weight: 400;
+  font-family: "Roboto Condensed";
 
   font-display: swap;
   src:
-    url("../fonts/Robotomedium.woff2") format("woff2"),
-    url("../fonts/Robotomedium.woff") format("woff");
+    url("../fonts/RobotoCondensed-Regular.woff2") format("woff2"),
+    url("../fonts/RobotoCondensed-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-style: italic;
+  font-weight: 400;
+  font-family: "Roboto Condensed";
+
+  font-display: swap;
+  src:
+    url("../fonts/RobotoCondensed-Italic.woff2") format("woff2"),
+    url("../fonts/RobotoCondensed-Italic.woff") format("woff");
 }
 
 @font-face {
   font-style: normal;
   font-weight: 700;
-  font-family: "Roboto";
+  font-family: "Roboto Condensed";
 
   font-display: swap;
   src:
-    url("../fonts/Robotobold.woff2") format("woff2"),
-    url("../fonts/Robotobold.woff") format("woff");
+    url("../fonts/RobotoCondensed-Bold.woff2") format("woff2"),
+    url("../fonts/RobotoCondensed-Bold.woff") format("woff");
 }
 
 @font-face {
-  font-style: normal;
-  font-weight: 900;
-  font-family: "Roboto";
-
-  font-display: swap;
-  src:
-    url("../fonts/Robotoblack.woff2") format("woff2"),
-    url("../fonts/Robotoblack.woff") format("woff");
-}
-
-font-face {
   font-style: italic;
-  font-weight: 900;
-  font-family: "Roboto";
+  font-weight: 700;
+  font-family: "Roboto Condensed";
 
   font-display: swap;
   src:
-    url("../fonts/Roboto-BlackItalic.woff2") format("woff2"),
-    url("../fonts/Roboto-BlackItalic.woff") format("woff");
+    url("../fonts/RobotoCondensed-BoldItalic.woff2") format("woff2"),
+    url("../fonts/RobotoCondensed-BoldItalic.woff") format("woff");
 }
+

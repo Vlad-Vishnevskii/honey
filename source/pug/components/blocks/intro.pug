@@ -1,6 +1,7 @@
 mixin intro()
   .intro
-    //- +img("svg", "looper-bg", "svg", 5000, 4600, "bg")
+    .intro__bg
+      +img("svg", "LooperGroup02", "svg", 1400, 1918, "bg")
     .container
       .intro__wrapper
         .intro__logo
@@ -8,8 +9,6 @@ mixin intro()
         .intro__main
           .intro__big-bonus
             +img("svg", "main-bonus-rub", "svg", 885, 250, "20000р")
-            //- span.intro__big-bonus-count 20000
-            //- span.intro__big-bonus-currency ₽
           p.intro__main-slogan на раз-два-три!
           p.intro__main-text Получай бонусы на депозиты три недели подряд
           .intro__img-thunderbolt
@@ -21,19 +20,19 @@ mixin intro()
                 +img("svg", "bonus70", "svg", 361, 200, "70%")
               .intro__bonus-signature
                 +img("content", "deposit-1", "png", 150, 96, "Депозит")
-                p.intro__bonus-text к депозиту на 1й неделе
+                p.intro__bonus-text к депозиту на&nbsp;1й неделе
             li.intro__bonus-item
               .intro__bonus-wrapper
                 +img("svg", "bonus100", "svg", 417, 148, "100%")
               .intro__bonus-signature
                 +img("content", "deposit-2", "png", 147, 135, "Депозит")
-                p.intro__bonus-text к депозиту на 2й неделе
+                p.intro__bonus-text к депозиту на&nbsp;2й неделе
             li.intro__bonus-item
               .intro__bonus-wrapper
                 +img("svg", "bonus120", "svg", 471, 200, "120%")
               .intro__bonus-signature
                 +img("content", "deposit-3", "png", 147, 142, "Депозит")
-                p.intro__bonus-text к депозиту на 3й неделе
+                p.intro__bonus-text к депозиту на&nbsp;3й неделе
           .intro__podium-img
             +img("content", "podium", "png", 1400, 722, "Подиум")
         .intro__rules
@@ -43,14 +42,15 @@ mixin intro()
               |Сделай первый депозит
               +icon("icon-arrow", 36, 94)
             li.intro__rules-item
-              |Подтверди почту или телефон
+              |Подтверди почту или&nbsp;телефон
               +icon("icon-arrow", 36, 94)
             li.intro__rules-item
               |Получай промокоды на бонус каждую неделю
         a(href="#").intro__button.btn Подтвердить контактные данные
-        a(href="#").intro__link Подробные правила
+        a(href="#").intro__link Подробные Правила
         .intro__bottom
           +icon("icon-logo", 223, 42)
+
 
 
 
